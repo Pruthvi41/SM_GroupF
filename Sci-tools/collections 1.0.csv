@@ -1,0 +1,793 @@
+Kind,Name,CountLineCode,SumCyclomatic
+File,"ArrayEnumeration.java",30,5
+File,"ArrayIterator.java",31,8
+File,"ArrayStack.java",47,12
+File,"BeanMap.java",337,70
+File,"BinaryHeap.java",148,31
+File,"Closure.java",4,0
+File,"CollectionUtils.java",209,54
+File,"CursorableLinkedList.java",790,212
+File,"DefaultMapEntry.java",58,15
+File,"EnumerationIterator.java",26,7
+File,"ExtendedProperties.java",928,159
+File,"FastArrayList.java",374,74
+File,"FastHashMap.java",233,50
+File,"FastTreeMap.java",289,62
+File,"FilterIterator.java",37,9
+File,"IteratorEnumeration.java",23,6
+File,"LRUMap.java",179,43
+File,"ListUtils.java",42,7
+File,"MapUtils.java",284,75
+File,"Predicate.java",4,0
+File,"PriorityQueue.java",10,0
+File,"ProxyIterator.java",26,7
+File,"SoftRefHashMap.java",147,42
+File,"SynchronizedPriorityQueue.java",35,7
+File,"TestAll.java",29,3
+File,"TestArrayIterator.java",33,6
+File,"TestArrayList.java",53,8
+File,"TestArrayStack.java",70,10
+File,"TestCollection.java",351,78
+File,"TestCollectionUtils.java",221,18
+File,"TestCursorableLinkedList.java",797,44
+File,"TestExtendedProperties.java",42,4
+File,"TestFastArrayList.java",32,5
+File,"TestFastArrayList1.java",32,5
+File,"TestFastHashMap.java",31,5
+File,"TestFastHashMap1.java",31,5
+File,"TestFastTreeMap.java",31,5
+File,"TestFastTreeMap1.java",31,5
+File,"TestHashMap.java",43,7
+File,"TestLRUMap.java",26,5
+File,"TestList.java",543,151
+File,"TestMap.java",30,8
+File,"TestObject.java",30,6
+File,"TestSoftRefHashMap.java",26,5
+File,"TestTreeMap.java",43,7
+File,"TransformIterator.java",31,8
+File,"Transformer.java",4,0
+Package,"org",0,0
+Package,"org.apache",0,0
+Package,"org.apache.commons",0,0
+Package,"org.apache.commons.collections",6851,1353
+Public Class,"org.apache.commons.collections.ArrayEnumeration",26,5
+Public Constructor,"org.apache.commons.collections.ArrayEnumeration.ArrayEnumeration",4,1
+Public Constructor,"org.apache.commons.collections.ArrayEnumeration.ArrayEnumeration",4,1
+Public Method,"org.apache.commons.collections.ArrayEnumeration.hasMoreElements",4,1
+Public Method,"org.apache.commons.collections.ArrayEnumeration.nextElement",8,2
+Public Class,"org.apache.commons.collections.ArrayIterator",28,8
+Public Constructor,"org.apache.commons.collections.ArrayIterator.ArrayIterator",3,1
+Public Constructor,"org.apache.commons.collections.ArrayIterator.ArrayIterator",2,1
+Public Method,"org.apache.commons.collections.ArrayIterator.getArray",3,1
+Public Method,"org.apache.commons.collections.ArrayIterator.hasNext",3,1
+Public Method,"org.apache.commons.collections.ArrayIterator.next",6,2
+Public Method,"org.apache.commons.collections.ArrayIterator.remove",3,1
+Public Method,"org.apache.commons.collections.ArrayIterator.setArray",4,1
+Public Class,"org.apache.commons.collections.ArrayStack",43,12
+Public Method,"org.apache.commons.collections.ArrayStack.empty",3,1
+Public Method,"org.apache.commons.collections.ArrayStack.peek",7,2
+Public Method,"org.apache.commons.collections.ArrayStack.peek",7,2
+Public Method,"org.apache.commons.collections.ArrayStack.pop",7,2
+Public Method,"org.apache.commons.collections.ArrayStack.push",6,2
+Public Method,"org.apache.commons.collections.ArrayStack.search",11,3
+Public Class,"org.apache.commons.collections.BeanMap",322,54
+Anonymous Class,"org.apache.commons.collections.BeanMap.(Anon_1)",5,1
+Public Method,"org.apache.commons.collections.BeanMap.(Anon_1).transform",3,1
+Anonymous Class,"org.apache.commons.collections.BeanMap.(Anon_2)",5,1
+Public Method,"org.apache.commons.collections.BeanMap.(Anon_2).transform",3,1
+Anonymous Class,"org.apache.commons.collections.BeanMap.(Anon_3)",5,1
+Public Method,"org.apache.commons.collections.BeanMap.(Anon_3).transform",3,1
+Anonymous Class,"org.apache.commons.collections.BeanMap.(Anon_4)",5,1
+Public Method,"org.apache.commons.collections.BeanMap.(Anon_4).transform",3,1
+Anonymous Class,"org.apache.commons.collections.BeanMap.(Anon_5)",5,1
+Public Method,"org.apache.commons.collections.BeanMap.(Anon_5).transform",3,1
+Anonymous Class,"org.apache.commons.collections.BeanMap.(Anon_6)",5,1
+Public Method,"org.apache.commons.collections.BeanMap.(Anon_6).transform",3,1
+Anonymous Class,"org.apache.commons.collections.BeanMap.(Anon_7)",5,1
+Public Method,"org.apache.commons.collections.BeanMap.(Anon_7).transform",3,1
+Anonymous Class,"org.apache.commons.collections.BeanMap.(Anon_8)",5,1
+Public Method,"org.apache.commons.collections.BeanMap.(Anon_8).transform",3,1
+Public Constructor,"org.apache.commons.collections.BeanMap.BeanMap",2,1
+Public Constructor,"org.apache.commons.collections.BeanMap.BeanMap",4,1
+Protected Static Class,"org.apache.commons.collections.BeanMap.MyMapEntry",15,2
+Protected Constructor,"org.apache.commons.collections.BeanMap.MyMapEntry.MyMapEntry",4,1
+Public Method,"org.apache.commons.collections.BeanMap.MyMapEntry.setValue",8,1
+Public Method,"org.apache.commons.collections.BeanMap.clear",9,2
+Public Method,"org.apache.commons.collections.BeanMap.clone",12,2
+Public Method,"org.apache.commons.collections.BeanMap.containsKey",4,1
+Public Method,"org.apache.commons.collections.BeanMap.containsValue",3,1
+Protected Method,"org.apache.commons.collections.BeanMap.convertType",16,3
+Protected Method,"org.apache.commons.collections.BeanMap.createWriteMethodArguments",23,6
+Public Method,"org.apache.commons.collections.BeanMap.entryIterator",16,1
+Anonymous Class,"org.apache.commons.collections.BeanMap.entryIterator.(Anon_10)",12,3
+Public Method,"org.apache.commons.collections.BeanMap.entryIterator.(Anon_10).hasNext",3,1
+Public Method,"org.apache.commons.collections.BeanMap.entryIterator.(Anon_10).next",5,1
+Public Method,"org.apache.commons.collections.BeanMap.entryIterator.(Anon_10).remove",3,1
+Public Method,"org.apache.commons.collections.BeanMap.entrySet",3,1
+Protected Method,"org.apache.commons.collections.BeanMap.firePropertyChange",2,1
+Public Method,"org.apache.commons.collections.BeanMap.get",23,7
+Public Method,"org.apache.commons.collections.BeanMap.getBean",3,1
+Protected Method,"org.apache.commons.collections.BeanMap.getReadMethod",3,1
+Public Method,"org.apache.commons.collections.BeanMap.getType",3,1
+Protected Method,"org.apache.commons.collections.BeanMap.getTypeTransformer",3,1
+Protected Method,"org.apache.commons.collections.BeanMap.getWriteMethod",3,1
+Private Method,"org.apache.commons.collections.BeanMap.initialise",28,7
+Public Method,"org.apache.commons.collections.BeanMap.keyIterator",3,1
+Public Method,"org.apache.commons.collections.BeanMap.keySet",3,1
+Protected Method,"org.apache.commons.collections.BeanMap.logInfo",3,1
+Protected Method,"org.apache.commons.collections.BeanMap.logWarn",4,1
+Public Method,"org.apache.commons.collections.BeanMap.put",25,5
+Protected Method,"org.apache.commons.collections.BeanMap.reinitialise",6,1
+Public Method,"org.apache.commons.collections.BeanMap.setBean",4,1
+Public Method,"org.apache.commons.collections.BeanMap.size",3,1
+Public Method,"org.apache.commons.collections.BeanMap.valueIterator",15,1
+Anonymous Class,"org.apache.commons.collections.BeanMap.valueIterator.(Anon_9)",11,3
+Public Method,"org.apache.commons.collections.BeanMap.valueIterator.(Anon_9).hasNext",3,1
+Public Method,"org.apache.commons.collections.BeanMap.valueIterator.(Anon_9).next",4,1
+Public Method,"org.apache.commons.collections.BeanMap.valueIterator.(Anon_9).remove",3,1
+Public Method,"org.apache.commons.collections.BeanMap.values",7,2
+Public Class,"org.apache.commons.collections.BinaryHeap",146,31
+Public Constructor,"org.apache.commons.collections.BinaryHeap.BinaryHeap",4,1
+Public Constructor,"org.apache.commons.collections.BinaryHeap.BinaryHeap",4,1
+Public Constructor,"org.apache.commons.collections.BinaryHeap.BinaryHeap",4,1
+Public Constructor,"org.apache.commons.collections.BinaryHeap.BinaryHeap",5,1
+Public Method,"org.apache.commons.collections.BinaryHeap.clear",4,1
+Protected Method,"org.apache.commons.collections.BinaryHeap.grow",7,1
+Public Method,"org.apache.commons.collections.BinaryHeap.insert",6,3
+Public Method,"org.apache.commons.collections.BinaryHeap.isEmpty",4,1
+Public Method,"org.apache.commons.collections.BinaryHeap.isFull",4,1
+Public Method,"org.apache.commons.collections.BinaryHeap.peek",5,2
+Protected Method,"org.apache.commons.collections.BinaryHeap.percolateDownMaxHeap",21,4
+Protected Method,"org.apache.commons.collections.BinaryHeap.percolateDownMinHeap",21,4
+Protected Method,"org.apache.commons.collections.BinaryHeap.percolateUpMaxHeap",12,2
+Protected Method,"org.apache.commons.collections.BinaryHeap.percolateUpMinHeap",13,2
+Public Method,"org.apache.commons.collections.BinaryHeap.pop",12,3
+Public Method,"org.apache.commons.collections.BinaryHeap.toString",12,3
+Public Interface,"org.apache.commons.collections.Closure",3,0
+Public Abstract Method,"org.apache.commons.collections.Closure.execute",1,0
+Public Class,"org.apache.commons.collections.CollectionUtils",199,54
+Public Static Method,"org.apache.commons.collections.CollectionUtils.addAll",5,2
+Public Static Method,"org.apache.commons.collections.CollectionUtils.addAll",5,2
+Public Static Method,"org.apache.commons.collections.CollectionUtils.addAll",5,2
+Public Static Method,"org.apache.commons.collections.CollectionUtils.cardinality",11,3
+Public Static Method,"org.apache.commons.collections.CollectionUtils.collect",5,1
+Public Static Method,"org.apache.commons.collections.CollectionUtils.collect",5,1
+Public Static Method,"org.apache.commons.collections.CollectionUtils.collect",6,2
+Public Static Method,"org.apache.commons.collections.CollectionUtils.collect",10,3
+Public Static Method,"org.apache.commons.collections.CollectionUtils.disjunction",15,3
+Public Static Method,"org.apache.commons.collections.CollectionUtils.find",11,4
+Public Static Method,"org.apache.commons.collections.CollectionUtils.forAllDo",8,3
+Public Static Method,"org.apache.commons.collections.CollectionUtils.getCardinalityMap",14,3
+Private Static Method,"org.apache.commons.collections.CollectionUtils.getFreq",8,3
+Public Static Method,"org.apache.commons.collections.CollectionUtils.intersection",15,3
+Public Static Method,"org.apache.commons.collections.CollectionUtils.isEqualCollection",20,5
+Public Static Method,"org.apache.commons.collections.CollectionUtils.isProperSubCollection",3,1
+Public Static Method,"org.apache.commons.collections.CollectionUtils.isSubCollection",13,3
+Public Static Method,"org.apache.commons.collections.CollectionUtils.select",5,1
+Public Static Method,"org.apache.commons.collections.CollectionUtils.select",10,4
+Public Static Method,"org.apache.commons.collections.CollectionUtils.subtract",8,2
+Public Static Method,"org.apache.commons.collections.CollectionUtils.union",15,3
+Public Class,"org.apache.commons.collections.CursorableLinkedList",576,110
+Public Class,"org.apache.commons.collections.CursorableLinkedList.Cursor",70,22
+Constructor,"org.apache.commons.collections.CursorableLinkedList.Cursor.Cursor",5,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.Cursor.add",9,1
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.Cursor.checkForComod",5,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.Cursor.close",6,2
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.Cursor.invalidate",3,1
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.Cursor.listableChanged",5,2
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.Cursor.listableInserted",13,5
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.Cursor.listableRemoved",15,6
+Public Method,"org.apache.commons.collections.CursorableLinkedList.Cursor.nextIndex",3,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.Cursor.previousIndex",3,1
+Class,"org.apache.commons.collections.CursorableLinkedList.ListIter",100,22
+Constructor,"org.apache.commons.collections.CursorableLinkedList.ListIter.ListIter",13,3
+Public Method,"org.apache.commons.collections.CursorableLinkedList.ListIter.add",7,1
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.ListIter.checkForComod",5,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.ListIter.hasNext",4,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.ListIter.hasPrevious",4,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.ListIter.next",13,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.ListIter.nextIndex",7,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.ListIter.previous",13,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.ListIter.previousIndex",7,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.ListIter.remove",13,4
+Public Method,"org.apache.commons.collections.CursorableLinkedList.ListIter.set",8,2
+Class,"org.apache.commons.collections.CursorableLinkedList.Listable",30,7
+Constructor,"org.apache.commons.collections.CursorableLinkedList.Listable.Listable",5,1
+Method,"org.apache.commons.collections.CursorableLinkedList.Listable.next",3,1
+Method,"org.apache.commons.collections.CursorableLinkedList.Listable.prev",3,1
+Method,"org.apache.commons.collections.CursorableLinkedList.Listable.setNext",3,1
+Method,"org.apache.commons.collections.CursorableLinkedList.Listable.setPrev",3,1
+Method,"org.apache.commons.collections.CursorableLinkedList.Listable.setValue",5,1
+Method,"org.apache.commons.collections.CursorableLinkedList.Listable.value",3,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.add",4,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.add",12,5
+Public Method,"org.apache.commons.collections.CursorableLinkedList.addAll",10,3
+Public Method,"org.apache.commons.collections.CursorableLinkedList.addAll",15,5
+Public Method,"org.apache.commons.collections.CursorableLinkedList.addFirst",4,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.addLast",4,1
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.broadcastListableChanged",6,2
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.broadcastListableInserted",6,2
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.broadcastListableRemoved",6,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.clear",7,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.contains",8,3
+Public Method,"org.apache.commons.collections.CursorableLinkedList.containsAll",9,3
+Public Method,"org.apache.commons.collections.CursorableLinkedList.cursor",3,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.cursor",3,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.equals",14,6
+Public Method,"org.apache.commons.collections.CursorableLinkedList.get",3,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.getFirst",7,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.getLast",7,2
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.getListableAt",18,5
+Public Method,"org.apache.commons.collections.CursorableLinkedList.hashCode",7,3
+Public Method,"org.apache.commons.collections.CursorableLinkedList.indexOf",12,4
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.insertListable",17,3
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.invalidateCursors",7,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.isEmpty",3,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.iterator",3,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.lastIndexOf",12,4
+Public Method,"org.apache.commons.collections.CursorableLinkedList.listIterator",3,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.listIterator",6,2
+Private Method,"org.apache.commons.collections.CursorableLinkedList.readObject",9,2
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.registerCursor",3,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.remove",12,4
+Public Method,"org.apache.commons.collections.CursorableLinkedList.remove",6,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.removeAll",15,4
+Public Method,"org.apache.commons.collections.CursorableLinkedList.removeFirst",9,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.removeLast",9,2
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.removeListable",17,5
+Public Method,"org.apache.commons.collections.CursorableLinkedList.retainAll",11,3
+Public Method,"org.apache.commons.collections.CursorableLinkedList.set",6,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.size",3,1
+Public Method,"org.apache.commons.collections.CursorableLinkedList.subList",9,3
+Public Method,"org.apache.commons.collections.CursorableLinkedList.toArray",8,2
+Public Method,"org.apache.commons.collections.CursorableLinkedList.toArray",13,4
+Public Method,"org.apache.commons.collections.CursorableLinkedList.toString",12,3
+Protected Method,"org.apache.commons.collections.CursorableLinkedList.unregisterCursor",3,1
+Private Method,"org.apache.commons.collections.CursorableLinkedList.writeObject",9,2
+Class,"org.apache.commons.collections.CursorableSubList",199,51
+Constructor,"org.apache.commons.collections.CursorableSubList.CursorableSubList",28,7
+Public Method,"org.apache.commons.collections.CursorableSubList.add",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.add",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.addAll",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.addAll",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.addFirst",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.addLast",4,1
+Protected Method,"org.apache.commons.collections.CursorableSubList.checkForComod",5,2
+Public Method,"org.apache.commons.collections.CursorableSubList.clear",8,2
+Public Method,"org.apache.commons.collections.CursorableSubList.contains",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.containsAll",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.equals",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.get",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.getFirst",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.getLast",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.hashCode",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.indexOf",4,1
+Protected Method,"org.apache.commons.collections.CursorableSubList.insertListable",17,6
+Public Method,"org.apache.commons.collections.CursorableSubList.isEmpty",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.iterator",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.lastIndexOf",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.listIterator",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.listIterator",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.remove",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.remove",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.removeAll",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.removeFirst",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.removeLast",4,1
+Protected Method,"org.apache.commons.collections.CursorableSubList.removeListable",16,4
+Public Method,"org.apache.commons.collections.CursorableSubList.retainAll",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.set",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.size",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.subList",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.toArray",4,1
+Public Method,"org.apache.commons.collections.CursorableSubList.toArray",4,1
+Public Class,"org.apache.commons.collections.DefaultMapEntry",56,15
+Public Constructor,"org.apache.commons.collections.DefaultMapEntry.DefaultMapEntry",2,1
+Public Constructor,"org.apache.commons.collections.DefaultMapEntry.DefaultMapEntry",4,1
+Public Method,"org.apache.commons.collections.DefaultMapEntry.equals",15,4
+Public Method,"org.apache.commons.collections.DefaultMapEntry.equals",6,2
+Public Method,"org.apache.commons.collections.DefaultMapEntry.getKey",3,1
+Public Method,"org.apache.commons.collections.DefaultMapEntry.getValue",3,1
+Public Method,"org.apache.commons.collections.DefaultMapEntry.hashCode",10,3
+Public Method,"org.apache.commons.collections.DefaultMapEntry.setKey",3,1
+Public Method,"org.apache.commons.collections.DefaultMapEntry.setValue",5,1
+Public Class,"org.apache.commons.collections.EnumerationIterator",23,7
+Public Constructor,"org.apache.commons.collections.EnumerationIterator.EnumerationIterator",2,1
+Public Constructor,"org.apache.commons.collections.EnumerationIterator.EnumerationIterator",3,1
+Public Method,"org.apache.commons.collections.EnumerationIterator.getEnumeration",3,1
+Public Method,"org.apache.commons.collections.EnumerationIterator.hasNext",3,1
+Public Method,"org.apache.commons.collections.EnumerationIterator.next",3,1
+Public Method,"org.apache.commons.collections.EnumerationIterator.remove",3,1
+Public Method,"org.apache.commons.collections.EnumerationIterator.setEnumeration",3,1
+Public Class,"org.apache.commons.collections.ExtendedProperties",909,148
+Public Constructor,"org.apache.commons.collections.ExtendedProperties.ExtendedProperties",4,1
+Public Constructor,"org.apache.commons.collections.ExtendedProperties.ExtendedProperties",4,1
+Public Constructor,"org.apache.commons.collections.ExtendedProperties.ExtendedProperties",12,2
+Class,"org.apache.commons.collections.ExtendedProperties.PropertiesReader",36,6
+Public Constructor,"org.apache.commons.collections.ExtendedProperties.PropertiesReader.PropertiesReader",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.PropertiesReader.readProperty",29,5
+Class,"org.apache.commons.collections.ExtendedProperties.PropertiesTokenizer",31,5
+Public Constructor,"org.apache.commons.collections.ExtendedProperties.PropertiesTokenizer.PropertiesTokenizer",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.PropertiesTokenizer.hasMoreTokens",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.PropertiesTokenizer.nextToken",19,3
+Public Method,"org.apache.commons.collections.ExtendedProperties.addProperty",33,5
+Private Method,"org.apache.commons.collections.ExtendedProperties.addPropertyDirect",8,2
+Private Method,"org.apache.commons.collections.ExtendedProperties.addStringProperty",19,3
+Public Method,"org.apache.commons.collections.ExtendedProperties.clearProperty",15,4
+Public Method,"org.apache.commons.collections.ExtendedProperties.combine",8,2
+Public Static Method,"org.apache.commons.collections.ExtendedProperties.convertProperties",10,2
+Public Method,"org.apache.commons.collections.ExtendedProperties.display",10,2
+Public Method,"org.apache.commons.collections.ExtendedProperties.getBoolean",13,2
+Public Method,"org.apache.commons.collections.ExtendedProperties.getBoolean",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getBoolean",31,5
+Public Method,"org.apache.commons.collections.ExtendedProperties.getByte",13,2
+Public Method,"org.apache.commons.collections.ExtendedProperties.getByte",5,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getByte",31,5
+Public Method,"org.apache.commons.collections.ExtendedProperties.getDouble",13,2
+Public Method,"org.apache.commons.collections.ExtendedProperties.getDouble",5,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getDouble",31,5
+Public Method,"org.apache.commons.collections.ExtendedProperties.getFloat",13,2
+Public Method,"org.apache.commons.collections.ExtendedProperties.getFloat",5,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getFloat",31,5
+Public Method,"org.apache.commons.collections.ExtendedProperties.getInclude",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getInt",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getInt",5,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getInteger",13,2
+Public Method,"org.apache.commons.collections.ExtendedProperties.getInteger",10,2
+Public Method,"org.apache.commons.collections.ExtendedProperties.getInteger",31,5
+Public Method,"org.apache.commons.collections.ExtendedProperties.getKeys",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getKeys",14,3
+Public Method,"org.apache.commons.collections.ExtendedProperties.getLong",13,2
+Public Method,"org.apache.commons.collections.ExtendedProperties.getLong",5,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getLong",31,5
+Public Method,"org.apache.commons.collections.ExtendedProperties.getProperties",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getProperties",24,3
+Public Method,"org.apache.commons.collections.ExtendedProperties.getProperty",12,3
+Public Method,"org.apache.commons.collections.ExtendedProperties.getShort",13,2
+Public Method,"org.apache.commons.collections.ExtendedProperties.getShort",5,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getShort",31,5
+Public Method,"org.apache.commons.collections.ExtendedProperties.getString",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getString",29,5
+Public Method,"org.apache.commons.collections.ExtendedProperties.getStringArray",36,6
+Public Method,"org.apache.commons.collections.ExtendedProperties.getVector",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.getVector",33,6
+Private Method,"org.apache.commons.collections.ExtendedProperties.init",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.isInitialized",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.load",5,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.load",65,12
+Public Method,"org.apache.commons.collections.ExtendedProperties.save",47,8
+Public Method,"org.apache.commons.collections.ExtendedProperties.setInclude",4,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.setProperty",5,1
+Public Method,"org.apache.commons.collections.ExtendedProperties.subset",35,6
+Public Method,"org.apache.commons.collections.ExtendedProperties.testBoolean",16,3
+Public Class,"org.apache.commons.collections.FastArrayList",367,74
+Public Constructor,"org.apache.commons.collections.FastArrayList.FastArrayList",4,1
+Public Constructor,"org.apache.commons.collections.FastArrayList.FastArrayList",4,1
+Public Constructor,"org.apache.commons.collections.FastArrayList.FastArrayList",4,1
+Public Method,"org.apache.commons.collections.FastArrayList.add",14,2
+Public Method,"org.apache.commons.collections.FastArrayList.add",13,2
+Public Method,"org.apache.commons.collections.FastArrayList.addAll",14,2
+Public Method,"org.apache.commons.collections.FastArrayList.addAll",14,2
+Public Method,"org.apache.commons.collections.FastArrayList.clear",13,2
+Public Method,"org.apache.commons.collections.FastArrayList.clone",12,2
+Public Method,"org.apache.commons.collections.FastArrayList.contains",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.containsAll",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.ensureCapacity",13,2
+Public Method,"org.apache.commons.collections.FastArrayList.equals",30,10
+Public Method,"org.apache.commons.collections.FastArrayList.get",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.getFast",3,1
+Public Method,"org.apache.commons.collections.FastArrayList.hashCode",21,6
+Public Method,"org.apache.commons.collections.FastArrayList.indexOf",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.isEmpty",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.iterator",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.lastIndexOf",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.listIterator",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.listIterator",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.remove",14,2
+Public Method,"org.apache.commons.collections.FastArrayList.remove",14,2
+Public Method,"org.apache.commons.collections.FastArrayList.removeAll",14,2
+Public Method,"org.apache.commons.collections.FastArrayList.retainAll",14,2
+Public Method,"org.apache.commons.collections.FastArrayList.set",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.setFast",3,1
+Public Method,"org.apache.commons.collections.FastArrayList.size",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.subList",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.toArray",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.toArray",9,2
+Public Method,"org.apache.commons.collections.FastArrayList.toString",6,1
+Public Method,"org.apache.commons.collections.FastArrayList.trimToSize",13,2
+Public Class,"org.apache.commons.collections.FastHashMap",225,50
+Public Constructor,"org.apache.commons.collections.FastHashMap.FastHashMap",4,1
+Public Constructor,"org.apache.commons.collections.FastHashMap.FastHashMap",4,1
+Public Constructor,"org.apache.commons.collections.FastHashMap.FastHashMap",4,1
+Public Constructor,"org.apache.commons.collections.FastHashMap.FastHashMap",4,1
+Public Method,"org.apache.commons.collections.FastHashMap.clear",13,2
+Public Method,"org.apache.commons.collections.FastHashMap.clone",12,2
+Public Method,"org.apache.commons.collections.FastHashMap.containsKey",9,2
+Public Method,"org.apache.commons.collections.FastHashMap.containsValue",9,2
+Public Method,"org.apache.commons.collections.FastHashMap.entrySet",9,2
+Public Method,"org.apache.commons.collections.FastHashMap.equals",44,14
+Public Method,"org.apache.commons.collections.FastHashMap.get",9,2
+Public Method,"org.apache.commons.collections.FastHashMap.getFast",3,1
+Public Method,"org.apache.commons.collections.FastHashMap.hashCode",17,4
+Public Method,"org.apache.commons.collections.FastHashMap.isEmpty",9,2
+Public Method,"org.apache.commons.collections.FastHashMap.keySet",9,2
+Public Method,"org.apache.commons.collections.FastHashMap.put",14,2
+Public Method,"org.apache.commons.collections.FastHashMap.putAll",13,2
+Public Method,"org.apache.commons.collections.FastHashMap.remove",14,2
+Public Method,"org.apache.commons.collections.FastHashMap.setFast",3,1
+Public Method,"org.apache.commons.collections.FastHashMap.size",9,2
+Public Method,"org.apache.commons.collections.FastHashMap.values",9,2
+Public Class,"org.apache.commons.collections.FastTreeMap",279,62
+Public Constructor,"org.apache.commons.collections.FastTreeMap.FastTreeMap",4,1
+Public Constructor,"org.apache.commons.collections.FastTreeMap.FastTreeMap",4,1
+Public Constructor,"org.apache.commons.collections.FastTreeMap.FastTreeMap",4,1
+Public Constructor,"org.apache.commons.collections.FastTreeMap.FastTreeMap",4,1
+Public Method,"org.apache.commons.collections.FastTreeMap.clear",13,2
+Public Method,"org.apache.commons.collections.FastTreeMap.clone",12,2
+Public Method,"org.apache.commons.collections.FastTreeMap.comparator",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.containsKey",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.containsValue",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.entrySet",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.equals",44,14
+Public Method,"org.apache.commons.collections.FastTreeMap.firstKey",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.get",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.getFast",3,1
+Public Method,"org.apache.commons.collections.FastTreeMap.hashCode",17,4
+Public Method,"org.apache.commons.collections.FastTreeMap.headMap",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.isEmpty",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.keySet",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.lastKey",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.put",14,2
+Public Method,"org.apache.commons.collections.FastTreeMap.putAll",13,2
+Public Method,"org.apache.commons.collections.FastTreeMap.remove",14,2
+Public Method,"org.apache.commons.collections.FastTreeMap.setFast",3,1
+Public Method,"org.apache.commons.collections.FastTreeMap.size",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.subMap",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.tailMap",9,2
+Public Method,"org.apache.commons.collections.FastTreeMap.values",9,2
+Public Class,"org.apache.commons.collections.FilterIterator",34,9
+Public Constructor,"org.apache.commons.collections.FilterIterator.FilterIterator",2,1
+Public Constructor,"org.apache.commons.collections.FilterIterator.FilterIterator",3,1
+Public Constructor,"org.apache.commons.collections.FilterIterator.FilterIterator",4,1
+Public Method,"org.apache.commons.collections.FilterIterator.getPredicate",3,1
+Public Method,"org.apache.commons.collections.FilterIterator.hasNext",12,3
+Public Method,"org.apache.commons.collections.FilterIterator.next",3,1
+Public Method,"org.apache.commons.collections.FilterIterator.setPredicate",3,1
+Public Class,"org.apache.commons.collections.IteratorEnumeration",19,6
+Public Constructor,"org.apache.commons.collections.IteratorEnumeration.IteratorEnumeration",2,1
+Public Constructor,"org.apache.commons.collections.IteratorEnumeration.IteratorEnumeration",3,1
+Public Method,"org.apache.commons.collections.IteratorEnumeration.getIterator",3,1
+Public Method,"org.apache.commons.collections.IteratorEnumeration.hasMoreElements",3,1
+Public Method,"org.apache.commons.collections.IteratorEnumeration.nextElement",3,1
+Public Method,"org.apache.commons.collections.IteratorEnumeration.setIterator",3,1
+Public Class,"org.apache.commons.collections.LRUMap",176,33
+Class,"org.apache.commons.collections.LRUMap.Entry",23,7
+Public Constructor,"org.apache.commons.collections.LRUMap.Entry.Entry",4,1
+Public Method,"org.apache.commons.collections.LRUMap.Entry.getKey",3,1
+Public Method,"org.apache.commons.collections.LRUMap.Entry.getValue",3,1
+Public Method,"org.apache.commons.collections.LRUMap.Entry.hashCode",4,3
+Public Method,"org.apache.commons.collections.LRUMap.Entry.setValue",5,1
+Public Constructor,"org.apache.commons.collections.LRUMap.LRUMap",5,1
+Public Constructor,"org.apache.commons.collections.LRUMap.LRUMap",3,1
+Protected Static Class,"org.apache.commons.collections.LRUMap.ValuePositionPair",12,3
+Public Constructor,"org.apache.commons.collections.LRUMap.ValuePositionPair.ValuePositionPair",2,1
+Public Constructor,"org.apache.commons.collections.LRUMap.ValuePositionPair.ValuePositionPair",3,1
+Public Method,"org.apache.commons.collections.LRUMap.ValuePositionPair.toString",3,1
+Public Method,"org.apache.commons.collections.LRUMap.containsKey",3,1
+Public Method,"org.apache.commons.collections.LRUMap.containsValue",13,4
+Public Method,"org.apache.commons.collections.LRUMap.entrySet",12,2
+Public Method,"org.apache.commons.collections.LRUMap.get",19,4
+Public Method,"org.apache.commons.collections.LRUMap.getMaximumSize",3,1
+Protected Method,"org.apache.commons.collections.LRUMap.getPair",3,1
+Public Method,"org.apache.commons.collections.LRUMap.keySet",3,1
+Protected Method,"org.apache.commons.collections.LRUMap.pairIterator",3,1
+Public Method,"org.apache.commons.collections.LRUMap.put",16,3
+Protected Method,"org.apache.commons.collections.LRUMap.putPair",3,1
+Public Method,"org.apache.commons.collections.LRUMap.readExternal",16,3
+Public Method,"org.apache.commons.collections.LRUMap.remove",4,2
+Public Method,"org.apache.commons.collections.LRUMap.removeLRU",6,1
+Protected Method,"org.apache.commons.collections.LRUMap.removePair",3,1
+Public Method,"org.apache.commons.collections.LRUMap.setMaximumSize",3,1
+Public Method,"org.apache.commons.collections.LRUMap.values",9,2
+Public Method,"org.apache.commons.collections.LRUMap.writeExternal",10,2
+Public Class,"org.apache.commons.collections.ListUtils",38,7
+Public Static Method,"org.apache.commons.collections.ListUtils.intersection",14,3
+Public Static Method,"org.apache.commons.collections.ListUtils.subtract",10,2
+Public Static Method,"org.apache.commons.collections.ListUtils.sum",5,1
+Public Static Method,"org.apache.commons.collections.ListUtils.union",6,1
+Public Class,"org.apache.commons.collections.MapUtils",280,75
+Public Static Method,"org.apache.commons.collections.MapUtils.debugPrint",25,4
+Protected Static Method,"org.apache.commons.collections.MapUtils.debugPrintIndent",5,2
+Public Static Method,"org.apache.commons.collections.MapUtils.getBoolean",20,7
+Public Static Method,"org.apache.commons.collections.MapUtils.getBoolean",7,2
+Public Static Method,"org.apache.commons.collections.MapUtils.getByte",11,3
+Public Static Method,"org.apache.commons.collections.MapUtils.getByte",7,2
+Public Static Method,"org.apache.commons.collections.MapUtils.getDouble",11,3
+Public Static Method,"org.apache.commons.collections.MapUtils.getDouble",7,2
+Public Static Method,"org.apache.commons.collections.MapUtils.getFloat",11,3
+Public Static Method,"org.apache.commons.collections.MapUtils.getFloat",7,2
+Public Static Method,"org.apache.commons.collections.MapUtils.getInteger",11,3
+Public Static Method,"org.apache.commons.collections.MapUtils.getInteger",7,2
+Public Static Method,"org.apache.commons.collections.MapUtils.getLong",11,3
+Public Static Method,"org.apache.commons.collections.MapUtils.getLong",7,2
+Public Static Method,"org.apache.commons.collections.MapUtils.getMap",9,3
+Public Static Method,"org.apache.commons.collections.MapUtils.getMap",7,2
+Public Static Method,"org.apache.commons.collections.MapUtils.getNumber",21,6
+Public Static Method,"org.apache.commons.collections.MapUtils.getNumber",7,2
+Public Static Method,"org.apache.commons.collections.MapUtils.getObject",6,2
+Public Static Method,"org.apache.commons.collections.MapUtils.getObject",9,3
+Public Static Method,"org.apache.commons.collections.MapUtils.getShort",11,3
+Public Static Method,"org.apache.commons.collections.MapUtils.getShort",7,2
+Public Static Method,"org.apache.commons.collections.MapUtils.getString",9,3
+Public Static Method,"org.apache.commons.collections.MapUtils.getString",7,2
+Protected Static Method,"org.apache.commons.collections.MapUtils.logInfo",3,1
+Public Static Method,"org.apache.commons.collections.MapUtils.toProperties",12,3
+Public Static Method,"org.apache.commons.collections.MapUtils.verbosePrint",22,3
+Public Interface,"org.apache.commons.collections.Predicate",3,0
+Public Abstract Method,"org.apache.commons.collections.Predicate.evaluate",1,0
+Public Interface,"org.apache.commons.collections.PriorityQueue",8,0
+Abstract Method,"org.apache.commons.collections.PriorityQueue.clear",1,0
+Abstract Method,"org.apache.commons.collections.PriorityQueue.insert",1,0
+Abstract Method,"org.apache.commons.collections.PriorityQueue.isEmpty",1,0
+Abstract Method,"org.apache.commons.collections.PriorityQueue.peek",1,0
+Abstract Method,"org.apache.commons.collections.PriorityQueue.pop",1,0
+Public Class,"org.apache.commons.collections.ProxyIterator",23,7
+Public Constructor,"org.apache.commons.collections.ProxyIterator.ProxyIterator",2,1
+Public Constructor,"org.apache.commons.collections.ProxyIterator.ProxyIterator",3,1
+Public Method,"org.apache.commons.collections.ProxyIterator.getIterator",3,1
+Public Method,"org.apache.commons.collections.ProxyIterator.hasNext",3,1
+Public Method,"org.apache.commons.collections.ProxyIterator.next",3,1
+Public Method,"org.apache.commons.collections.ProxyIterator.remove",3,1
+Public Method,"org.apache.commons.collections.ProxyIterator.setIterator",3,1
+Public Class,"org.apache.commons.collections.SoftRefHashMap",143,35
+Class,"org.apache.commons.collections.SoftRefHashMap.Entry",23,7
+Public Constructor,"org.apache.commons.collections.SoftRefHashMap.Entry.Entry",4,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.Entry.getKey",3,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.Entry.getValue",3,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.Entry.hashCode",4,3
+Public Method,"org.apache.commons.collections.SoftRefHashMap.Entry.setValue",5,1
+Public Constructor,"org.apache.commons.collections.SoftRefHashMap.SoftRefHashMap",2,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.clear",3,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.containsKey",3,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.containsValue",17,5
+Protected Method,"org.apache.commons.collections.SoftRefHashMap.createReference",3,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.entrySet",13,3
+Public Method,"org.apache.commons.collections.SoftRefHashMap.equals",3,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.get",7,2
+Protected Method,"org.apache.commons.collections.SoftRefHashMap.getMap",3,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.hashCode",3,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.isEmpty",3,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.keySet",3,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.purge",14,4
+Public Method,"org.apache.commons.collections.SoftRefHashMap.put",7,2
+Public Method,"org.apache.commons.collections.SoftRefHashMap.putAll",9,3
+Public Method,"org.apache.commons.collections.SoftRefHashMap.remove",7,2
+Public Method,"org.apache.commons.collections.SoftRefHashMap.size",3,1
+Public Method,"org.apache.commons.collections.SoftRefHashMap.values",14,4
+Public Class,"org.apache.commons.collections.SynchronizedPriorityQueue",33,7
+Public Constructor,"org.apache.commons.collections.SynchronizedPriorityQueue.SynchronizedPriorityQueue",4,1
+Public Method,"org.apache.commons.collections.SynchronizedPriorityQueue.clear",4,1
+Public Method,"org.apache.commons.collections.SynchronizedPriorityQueue.insert",4,1
+Public Method,"org.apache.commons.collections.SynchronizedPriorityQueue.isEmpty",4,1
+Public Method,"org.apache.commons.collections.SynchronizedPriorityQueue.peek",4,1
+Public Method,"org.apache.commons.collections.SynchronizedPriorityQueue.pop",4,1
+Public Method,"org.apache.commons.collections.SynchronizedPriorityQueue.toString",4,1
+Public Class,"org.apache.commons.collections.TestAll",27,3
+Public Constructor,"org.apache.commons.collections.TestAll.TestAll",3,1
+Public Static Method,"org.apache.commons.collections.TestAll.main",4,1
+Public Static Method,"org.apache.commons.collections.TestAll.suite",18,1
+Public Class,"org.apache.commons.collections.TestArrayIterator",29,6
+Public Constructor,"org.apache.commons.collections.TestArrayIterator.TestArrayIterator",3,1
+Public Method,"org.apache.commons.collections.TestArrayIterator.makeObject",3,1
+Public Static Method,"org.apache.commons.collections.TestArrayIterator.suite",3,1
+Public Method,"org.apache.commons.collections.TestArrayIterator.testIterator",15,3
+Public Class,"org.apache.commons.collections.TestArrayList",47,8
+Public Constructor,"org.apache.commons.collections.TestArrayList.TestArrayList",4,1
+Public Static Method,"org.apache.commons.collections.TestArrayList.main",5,1
+Public Method,"org.apache.commons.collections.TestArrayList.makeList",5,1
+Public Method,"org.apache.commons.collections.TestArrayList.setUp",4,1
+Public Static Method,"org.apache.commons.collections.TestArrayList.suite",4,1
+Public Method,"org.apache.commons.collections.TestArrayList.testNewArrayList",14,2
+Public Method,"org.apache.commons.collections.TestArrayList.testSearch",7,1
+Public Class,"org.apache.commons.collections.TestArrayStack",67,10
+Public Constructor,"org.apache.commons.collections.TestArrayStack.TestArrayStack",3,1
+Public Static Method,"org.apache.commons.collections.TestArrayStack.main",4,1
+Public Method,"org.apache.commons.collections.TestArrayStack.makeList",3,1
+Public Method,"org.apache.commons.collections.TestArrayStack.setUp",4,1
+Public Static Method,"org.apache.commons.collections.TestArrayStack.suite",3,1
+Public Method,"org.apache.commons.collections.TestArrayStack.testNewStack",16,3
+Public Method,"org.apache.commons.collections.TestArrayStack.testPushPeekPop",21,1
+Public Method,"org.apache.commons.collections.TestArrayStack.testSearch",10,1
+Public Abstract Class,"org.apache.commons.collections.TestCollection",345,78
+Public Constructor,"org.apache.commons.collections.TestCollection.TestCollection",3,1
+Public Abstract Method,"org.apache.commons.collections.TestCollection.makeCollection",1,0
+Public Method,"org.apache.commons.collections.TestCollection.makeObject",3,1
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionAdd",5,1
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionAddAll",17,5
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionClear",31,8
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionContains",10,1
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionContainsAll",17,3
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionEquals",17,3
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionEqualsSelf",9,1
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionHashCodeEqualsContract",15,4
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionHashCodeEqualsSelfHashCode",6,1
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionIsEmpty",8,2
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionIterator",28,6
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionRemove",19,5
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionRemoveAll",24,6
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionRemoveAll2",37,9
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionRetainAll",40,8
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionSize",8,2
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionToArray",18,4
+Public Method,"org.apache.commons.collections.TestCollection.testCollectionToArray2",12,2
+Protected Method,"org.apache.commons.collections.TestCollection.tryToAdd",15,5
+Public Class,"org.apache.commons.collections.TestCollectionUtils",218,18
+Public Constructor,"org.apache.commons.collections.TestCollectionUtils.TestCollectionUtils",3,1
+Public Static Method,"org.apache.commons.collections.TestCollectionUtils.main",4,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.setUp",24,1
+Public Static Method,"org.apache.commons.collections.TestCollectionUtils.suite",3,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testCardinality",12,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testDisjunction",16,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testDisjunctionAsSymmetricDifference",6,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testDisjunctionAsUnionMinusIntersection",6,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testGetCardinalityMap",14,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testIntersection",16,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testIsEqualCollection",4,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testIsEqualCollection2",24,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testIsEqualCollectionToSelf",4,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testIsSubCollection",4,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testIsSubCollection2",38,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testIsSubCollectionOfSelf",4,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testSubtract",16,1
+Public Method,"org.apache.commons.collections.TestCollectionUtils.testUnion",16,1
+Public Class,"org.apache.commons.collections.TestCursorableLinkedList",794,44
+Public Constructor,"org.apache.commons.collections.TestCursorableLinkedList.TestCursorableLinkedList",3,1
+Public Static Method,"org.apache.commons.collections.TestCursorableLinkedList.main",4,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.makeList",3,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.setUp",3,1
+Public Static Method,"org.apache.commons.collections.TestCursorableLinkedList.suite",3,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testAdd",27,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testClear",28,2
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testContains",13,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testContainsAll",19,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testCursorAdd",17,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testCursorNavigation",53,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testCursorRemove",38,3
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testCursorSet",22,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testEqualsAndHashCode",54,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testGet",22,4
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testIndexOf",19,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testIsEmpty",11,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testIterator",41,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testListIteratorAdd",16,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testListIteratorNavigation",82,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testListIteratorRemove",37,3
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testListIteratorSet",21,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testLongSerialization",16,2
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testRemove",35,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testRemoveAll",16,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testRemoveByIndex",18,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testRetainAll",21,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testSerialization",18,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testSet",18,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testSubList",14,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testSubListAddBegin",14,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testSubListAddEnd",14,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testSubListAddMiddle",14,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testSubListRemove",19,1
+Public Method,"org.apache.commons.collections.TestCursorableLinkedList.testToArray",38,1
+Public Class,"org.apache.commons.collections.TestExtendedProperties",38,4
+Public Constructor,"org.apache.commons.collections.TestExtendedProperties.TestExtendedProperties",4,1
+Public Static Method,"org.apache.commons.collections.TestExtendedProperties.main",5,1
+Public Static Method,"org.apache.commons.collections.TestExtendedProperties.suite",4,1
+Public Method,"org.apache.commons.collections.TestExtendedProperties.testRetrieve",21,1
+Public Class,"org.apache.commons.collections.TestFastArrayList",26,5
+Public Constructor,"org.apache.commons.collections.TestFastArrayList.TestFastArrayList",4,1
+Public Static Method,"org.apache.commons.collections.TestFastArrayList.main",5,1
+Public Method,"org.apache.commons.collections.TestFastArrayList.makeList",6,1
+Public Method,"org.apache.commons.collections.TestFastArrayList.setUp",4,1
+Public Static Method,"org.apache.commons.collections.TestFastArrayList.suite",4,1
+Public Class,"org.apache.commons.collections.TestFastArrayList1",26,5
+Public Constructor,"org.apache.commons.collections.TestFastArrayList1.TestFastArrayList1",4,1
+Public Static Method,"org.apache.commons.collections.TestFastArrayList1.main",5,1
+Public Method,"org.apache.commons.collections.TestFastArrayList1.makeList",6,1
+Public Method,"org.apache.commons.collections.TestFastArrayList1.setUp",4,1
+Public Static Method,"org.apache.commons.collections.TestFastArrayList1.suite",4,1
+Public Class,"org.apache.commons.collections.TestFastHashMap",25,5
+Public Constructor,"org.apache.commons.collections.TestFastHashMap.TestFastHashMap",4,1
+Public Static Method,"org.apache.commons.collections.TestFastHashMap.main",5,1
+Public Method,"org.apache.commons.collections.TestFastHashMap.makeMap",5,1
+Public Method,"org.apache.commons.collections.TestFastHashMap.setUp",4,1
+Public Static Method,"org.apache.commons.collections.TestFastHashMap.suite",4,1
+Public Class,"org.apache.commons.collections.TestFastHashMap1",25,5
+Public Constructor,"org.apache.commons.collections.TestFastHashMap1.TestFastHashMap1",4,1
+Public Static Method,"org.apache.commons.collections.TestFastHashMap1.main",5,1
+Public Method,"org.apache.commons.collections.TestFastHashMap1.makeMap",5,1
+Public Method,"org.apache.commons.collections.TestFastHashMap1.setUp",4,1
+Public Static Method,"org.apache.commons.collections.TestFastHashMap1.suite",4,1
+Public Class,"org.apache.commons.collections.TestFastTreeMap",25,5
+Public Constructor,"org.apache.commons.collections.TestFastTreeMap.TestFastTreeMap",4,1
+Public Static Method,"org.apache.commons.collections.TestFastTreeMap.main",5,1
+Public Method,"org.apache.commons.collections.TestFastTreeMap.makeMap",5,1
+Public Method,"org.apache.commons.collections.TestFastTreeMap.setUp",4,1
+Public Static Method,"org.apache.commons.collections.TestFastTreeMap.suite",4,1
+Public Class,"org.apache.commons.collections.TestFastTreeMap1",25,5
+Public Constructor,"org.apache.commons.collections.TestFastTreeMap1.TestFastTreeMap1",4,1
+Public Static Method,"org.apache.commons.collections.TestFastTreeMap1.main",5,1
+Public Method,"org.apache.commons.collections.TestFastTreeMap1.makeMap",5,1
+Public Method,"org.apache.commons.collections.TestFastTreeMap1.setUp",4,1
+Public Static Method,"org.apache.commons.collections.TestFastTreeMap1.suite",4,1
+Public Class,"org.apache.commons.collections.TestHashMap",37,7
+Public Constructor,"org.apache.commons.collections.TestHashMap.TestHashMap",4,1
+Public Static Method,"org.apache.commons.collections.TestHashMap.main",5,1
+Public Method,"org.apache.commons.collections.TestHashMap.makeMap",4,1
+Public Method,"org.apache.commons.collections.TestHashMap.setUp",4,1
+Public Static Method,"org.apache.commons.collections.TestHashMap.suite",4,1
+Public Method,"org.apache.commons.collections.TestHashMap.testNewMap",5,1
+Public Method,"org.apache.commons.collections.TestHashMap.testSearch",7,1
+Public Class,"org.apache.commons.collections.TestLRUMap",20,5
+Public Constructor,"org.apache.commons.collections.TestLRUMap.TestLRUMap",3,1
+Public Static Method,"org.apache.commons.collections.TestLRUMap.main",4,1
+Public Method,"org.apache.commons.collections.TestLRUMap.makeMap",4,1
+Public Method,"org.apache.commons.collections.TestLRUMap.setUp",3,1
+Public Static Method,"org.apache.commons.collections.TestLRUMap.suite",3,1
+Public Abstract Class,"org.apache.commons.collections.TestList",535,151
+Public Constructor,"org.apache.commons.collections.TestList.TestList",3,1
+Public Method,"org.apache.commons.collections.TestList.makeCollection",3,1
+Public Abstract Method,"org.apache.commons.collections.TestList.makeList",1,0
+Public Method,"org.apache.commons.collections.TestList.testListAdd",21,5
+Public Method,"org.apache.commons.collections.TestList.testListAddByIndex",16,5
+Public Method,"org.apache.commons.collections.TestList.testListAddByIndexBoundsChecking",35,17
+Public Method,"org.apache.commons.collections.TestList.testListAddByIndexBoundsChecking2",20,9
+Public Method,"org.apache.commons.collections.TestList.testListEquals",17,5
+Public Method,"org.apache.commons.collections.TestList.testListEqualsArrayList",18,2
+Public Method,"org.apache.commons.collections.TestList.testListEqualsSelf",8,1
+Public Method,"org.apache.commons.collections.TestList.testListGetByIndex",13,2
+Public Method,"org.apache.commons.collections.TestList.testListGetByIndexBoundsChecking",28,6
+Public Method,"org.apache.commons.collections.TestList.testListGetByIndexBoundsChecking2",24,5
+Public Method,"org.apache.commons.collections.TestList.testListIndexOf",14,2
+Public Method,"org.apache.commons.collections.TestList.testListLastIndexOf1",14,2
+Public Method,"org.apache.commons.collections.TestList.testListLastIndexOf2",47,9
+Public Method,"org.apache.commons.collections.TestList.testListListIteratorNextIndexPrevIndex",21,3
+Public Method,"org.apache.commons.collections.TestList.testListListIteratorNextPrev",29,4
+Public Method,"org.apache.commons.collections.TestList.testListListIteratorSet",43,15
+Public Method,"org.apache.commons.collections.TestList.testListRemoveByIndex",23,5
+Public Method,"org.apache.commons.collections.TestList.testListRemoveByValue",18,3
+Public Method,"org.apache.commons.collections.TestList.testListSetByIndex",19,5
+Public Method,"org.apache.commons.collections.TestList.testListSetByIndexBoundsChecking",43,21
+Public Method,"org.apache.commons.collections.TestList.testListSetByIndexBoundsChecking2",37,17
+Private Method,"org.apache.commons.collections.TestList.tryToAdd",18,6
+Public Abstract Class,"org.apache.commons.collections.TestMap",26,8
+Public Constructor,"org.apache.commons.collections.TestMap.TestMap",3,1
+Public Abstract Method,"org.apache.commons.collections.TestMap.makeMap",1,0
+Public Method,"org.apache.commons.collections.TestMap.makeObject",3,1
+Protected Method,"org.apache.commons.collections.TestMap.tryToPut",17,6
+Public Abstract Class,"org.apache.commons.collections.TestObject",24,6
+Public Constructor,"org.apache.commons.collections.TestObject.TestObject",3,1
+Public Abstract Method,"org.apache.commons.collections.TestObject.makeObject",1,0
+Public Method,"org.apache.commons.collections.TestObject.testObjectEqualsSelf",4,1
+Public Method,"org.apache.commons.collections.TestObject.testObjectHashCodeEqualsContract",10,3
+Public Method,"org.apache.commons.collections.TestObject.testObjectHashCodeEqualsSelfHashCode",4,1
+Public Class,"org.apache.commons.collections.TestSoftRefHashMap",20,5
+Public Constructor,"org.apache.commons.collections.TestSoftRefHashMap.TestSoftRefHashMap",3,1
+Public Static Method,"org.apache.commons.collections.TestSoftRefHashMap.main",4,1
+Public Method,"org.apache.commons.collections.TestSoftRefHashMap.makeMap",4,1
+Public Method,"org.apache.commons.collections.TestSoftRefHashMap.setUp",3,1
+Public Static Method,"org.apache.commons.collections.TestSoftRefHashMap.suite",3,1
+Public Class,"org.apache.commons.collections.TestTreeMap",37,7
+Public Constructor,"org.apache.commons.collections.TestTreeMap.TestTreeMap",4,1
+Public Static Method,"org.apache.commons.collections.TestTreeMap.main",5,1
+Public Method,"org.apache.commons.collections.TestTreeMap.makeMap",4,1
+Public Method,"org.apache.commons.collections.TestTreeMap.setUp",4,1
+Public Static Method,"org.apache.commons.collections.TestTreeMap.suite",4,1
+Public Method,"org.apache.commons.collections.TestTreeMap.testNewMap",5,1
+Public Method,"org.apache.commons.collections.TestTreeMap.testSearch",7,1
+Public Class,"org.apache.commons.collections.TransformIterator",28,8
+Public Constructor,"org.apache.commons.collections.TransformIterator.TransformIterator",2,1
+Public Constructor,"org.apache.commons.collections.TransformIterator.TransformIterator",3,1
+Public Constructor,"org.apache.commons.collections.TransformIterator.TransformIterator",4,1
+Public Method,"org.apache.commons.collections.TransformIterator.getTransformer",3,1
+Public Method,"org.apache.commons.collections.TransformIterator.next",3,1
+Public Method,"org.apache.commons.collections.TransformIterator.setTransformer",3,1
+Protected Method,"org.apache.commons.collections.TransformIterator.transform",7,2
+Public Interface,"org.apache.commons.collections.Transformer",3,0
+Public Abstract Method,"org.apache.commons.collections.Transformer.transform",1,0
